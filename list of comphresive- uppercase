@@ -1,0 +1,3 @@
+>>> the_list = ['albert', 'angela', 'leo', 'bridget']
+>>> [ word.upper().replace('A', 'a') for word in the_list]
+['aLBERT', 'aNGELa', 'LEO', 'BRIDGET']
