@@ -1,0 +1,23 @@
+import xlrd
+import os.path
+wb = xlrd.open_workbook(os.path.join('D:\TRB 2014 Data','SPS1 demo data.xlsx'))
+wb.sheet_names()
+sh = wb.sheet_by_index(0)
+i = 1
+
+while sh.cell(i,11).value != 0:
+
+   Load = sh.cell(i,11).value
+   D1 = sh.cell(i,13).value
+   D2 = sh.cell(i,14).value
+   D3 = sh.cell(i,15).value
+   D4 = sh.cell(i,16).value
+   D5 = sh.cell(i,17).value
+   D6 = sh.cell(i,18).value
+   D7 = sh.cell(i,19).value
+   DB1 = str(Load) + "  " + str(D1) + "  " + str(D2) + "  " + str(D3)+ "  " + str(D4)+ "  " + str(D5)+ "  " + str(D6)+ "  " + str(D7)
+
+   file = open("Output.txt", "w")
+   file.write(DB1 + '\n')
+   file.close
+   i = i + 1
