@@ -6,3 +6,4 @@ def power(b,e):
 b=int(input())
 e=int(input())
 print(power(b,e))
+
