@@ -1,8 +1,8 @@
-n=raw_input()
+n=str(input())
 print(n)
-if(n>='a'):
-    print"Alphabet"
-elif(n>='A'):
-    print"Alphabet"
+if(n>='a' and n<='z'):
+    print("Alphabet")
+elif(n>='A' and N<='Z'):
+    print("Alphabet")
 else:
-    print"No Alphabet"
+    print("No Alphabet")
