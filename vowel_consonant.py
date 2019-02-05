@@ -1,6 +1,6 @@
 list=['A','E','I','O','U','a','e','i','o','u']
-r=raw_input("value is:")
+r=str(input())
 if(r in list):
-    print("vowel")
+    print("Vowel")
 else:
-    print("consonant")
+    print("Consonant")
