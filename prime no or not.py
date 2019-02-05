@@ -1,4 +1,4 @@
-n = 11
+n = input()
 if n > 1:
    
    
@@ -14,7 +14,7 @@ if n > 1:
    
    else:
        
-       print(n,"is a prime number")
+       print(n,"yes")
 else:
    
-   print(n,"is not a prime number")
+   print(n,"no")
