@@ -8,11 +8,8 @@ if n > 1:
            
            print("no")
            
-           print(i,"times",n//i,"is",n)
-           
            break
    
    else:
        
        print("yes")
-   print(n,"no")
