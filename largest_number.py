@@ -1,9 +1,7 @@
-num1=int(input())
-num2=int(input())
-num3=int(input())
+num1,num2,num3=(input().split())
 if(num1<num2>num3):
-    print"NUM2 is greater"
+    print(num2)
 elif(num2<num3>num1):
-    print"NUM3 is greater"
+    print(num3)
 else:
-    print"NUM1 is greater"
+    print(num1)
