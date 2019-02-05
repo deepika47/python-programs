@@ -1,5 +1,5 @@
-low = 900
-up = 1000
+low = 1
+up = 10
 print("Prime numbers between",low,"and",up,"are:")
 for n in range(low,up + 1):
     if n > 1:
