@@ -1,3 +1,3 @@
-i=int(input("enter n value:"))
+i=int(input())
 for a in range(0,i):
-    print("hello")
+    print("Hello")
