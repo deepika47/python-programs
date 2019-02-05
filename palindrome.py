@@ -5,10 +5,10 @@ def isPalindrome(s):
     if (s == rev): 
         return True
     return False
-s = "121"
+s=input()
 ans = isPalindrome(s) 
   
 if ans == 1: 
-    print("Yes") 
+    print("yes") 
 else: 
-    print("No")
+    print("no")
