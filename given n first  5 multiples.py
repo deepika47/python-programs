@@ -1,6 +1,8 @@
-def multiple(a, b):
-    a = range(b, (a * b)+1, b)
-    print(*a)
-a = int(input())
-b = 5
-multiple(a, b)
+n = int(input())
+a=1
+if(n>0):
+    for i in range(1,6):
+        a=n*i
+        print(a)
+else:
+    print("negative input")
