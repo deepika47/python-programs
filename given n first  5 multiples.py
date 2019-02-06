@@ -1,11 +1,9 @@
 n = int(input())
-a=[]
+x=[]
 if(n>0):
     for i in range(1,6):
-       a.append(n*i)
-       
+       x.append(n*i)
 else:
     print("negative input")
-    
-print(*a,sep=' ')
+print(*x,sep=' ')
 
