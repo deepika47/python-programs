@@ -10,3 +10,4 @@ N = int(input())
 A = int(input())
 D = int(input())
 print (AP(A, D, N))
+
