@@ -1,7 +1,7 @@
 def AP( A ,D,N) :
     sum = 0
-    i = 0
-    while i < N :
+    i = 1
+    while i <= N :
         sum = sum + A
         A = A + D
         i = i + 1
